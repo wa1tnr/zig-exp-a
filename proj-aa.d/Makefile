@@ -1,4 +1,6 @@
 
+all: this run
+
 this:
 	@zig c++ hello.cpp
 
@@ -6,5 +8,5 @@ run:
 	@./a.out
 
 clean:
-	@rm a.out
+	@rm -rf a.out
 
